@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create User</title>
+</head>
+
+<body>
+<h1>Create User</h1>
+<hr />
+
+<form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+    <fieldset>
+        <legend>User From</legend>
+        <div>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="username" size="30" maxlength="12" />
+            <label>Password:</label>
+            <input type="password" size="30" maxlength="8" placeholder="password" />
+        </div>
+        <div>
+            <label>Select your favourite superheroe</label>
+            <input type="radio" name="superhereo" value="Superman" /> Superman
+            <input type="radio" name="superhereo" value="Batman" checked="checked" /> Batman
+            <input type="radio" name="superhereo" value="Wonder Woman" /> Wonder Woman
+            <input type="radio" name="superhereo" value="Flash" /> Flash
+            <input type="radio" name="superhereo" value="Thor" /> Thor
+            <input type="radio" name="superhereo" value="Hulk" /> Hulk
+        </div>
+        <div>
+            <label>Select your favourite video game</label>
+            <input type="checkbox" name="videogame" value="Fifa" /> Fifa
+            <input type="checkbox" name="videogame" value="NHL" /> NHL
+            <input type="checkbox" name="videogame" value="Residen" /> Residen
+            <input type="checkbox" name="videogame" value="Uncharted" /> Uncharted
+        </div>
+
+        <label for="birthday">birthday:</label>
+        <input type="date" name="birthday" id="birthday">
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email">
+
+        <input type="hidden" name="userid" value="2300" />
+        <input type="submit" name="submit" value="submit">
+    </fieldset>
+</form>
+
+<form action=" https://www.google.ca/search" method="GET">
+    <label>search:</label>
+    <input type="search" name="q">
+    <input type="submit">
+</form>
+</body>
+
+</html>
