@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Events</title>
+
+    <script>
+    window.onload = function() {
+        let link=document.querySelector('a')
+        let counter=0
+
+        link.addEventListener('mouseover', function(event) {
+            counter++
+            switch (counter) {
+                case 1:
+                    this.style.backgroundColor = 'red'
+                    break;
+                case 2:
+                    this.style.backgroundColor = 'blue'
+                    break;
+                case 3:
+                    this.style.backgroundColor = 'green'
+                    break;
+                case 4:
+                    this.style.backgroundColor = 'gray'
+                    break;
+                default:
+                    this.style.backgroundColor = 'white'
+                    break;
+            }
+        })
+
+        // link.onmouseover =  function () {
+        //     counter++
+        //     switch (counter) {
+        //         case 1:
+        //             this.style.backgroundColor = 'red'
+        //             break;
+        //         case 2:
+        //             this.style.backgroundColor = 'blue'
+        //             break;
+        //         case 3:
+        //             this.style.backgroundColor = 'green'
+        //             break;
+        //         case 4:
+        //             this.style.backgroundColor = 'gray'
+        //             break;
+        //         default:
+        //             this.style.backgroundColor = 'white'
+        //             break;
+        //     }
+        // }
+    }
+    </script>
+  </head>
+  <body>
+    <div></div>
+    <button id="firstButton">Click Me!!</button>
+    <button id="secondButton">Remove event listener</button>
+    <a href="https://google.com">Link with JavaScript handler</a>
+  </body>
+</html>

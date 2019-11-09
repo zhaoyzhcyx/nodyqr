@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Elements</title>
+  <style>
+    .red {
+      color: red;
+    }
+    
+    .green {
+      color: green;
+    }
+    
+    .orange {
+      color: orange;
+    }
+  </style>
+
+  <script>
+      'use strict';
+  window.onload = function() {
+      let ul=document.querySelector('ul')
+      console.log(ul)
+      let ui2=ul.children.item(1)
+      ui2.classList.add('green')
+      let ui4=ul.children.item(3)
+      ui4.classList.add('red')
+      console.log(ui2.parentElement)
+      ui2.parentElement.classList.add('orange')
+  }
+  </script>
+</head>
+<body>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+  </ul>
+</body>
+</html>
