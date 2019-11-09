@@ -2,7 +2,7 @@
 
 This project it's to learn HTML, CSS, JS, Node.js and MongoDB
 
-1. [HTML](/html/README.md)
-2. [CSS](/CSS/README.md)
-3. [Browser API](/browser/README.md)
-4. [Fetch](/fetch/README.md)
+1. [HTML](/html/index.html)
+2. [CSS](/CSS/index.html)
+3. [Browser API](/browser/index.html)
+4. [Fetch](/fetch/index.html)
