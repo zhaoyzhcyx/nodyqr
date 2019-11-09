@@ -2,10 +2,10 @@
 
 This project it's to learn HTML, CSS, JS, Node.js and MongoDB
 
-1. [HTML](/html/index.html)
+## HTML
 HTML DOM
-2. [CSS](/CSS/index.html)
-3. [Browser API]
+## CSS
+## Browser API
 Browser APS
-4. [Fetch]
+## Fetch
 Example of AJAX and JSON
